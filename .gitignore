@@ -1,0 +1,40 @@
+# ------------------------------------
+# PhishGuard Enterprise .gitignore file
+# ------------------------------------
+
+# 1. Credentials and Environment Configuration
+# NEVER commit API keys or passwords!
+.env
+.flaskenv
+*.ini
+
+# 2. Python-specific files
+# Byte-compiled files
+__pycache__/
+*.pyc
+
+# Test directories
+testemails/
+
+# Virtual environment directories
+venv/
+.venv/
+
+# Installer files
+*.egg-info/
+dist/
+build/
+
+# 3. Operating System / Editor Files
+.DS_Store # Mac
+*~ # Linux/Unix
+Thumbs.db # Windows
+
+# 4. Streamlit & Python Data Output
+# Streamlit cache directory
+.streamlit/
+
+# General project output files
+/output/
+*.log
+*.sqlite
