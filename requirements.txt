@@ -1,0 +1,8 @@
+streamlit
+google-genai
+openai
+python-dotenv
+pillow
+pandas
+fpdf
+regex
